@@ -8,6 +8,7 @@ import { Container } from "react-bootstrap";
 import Homepage from "./componets/Homepage";
 import Aboutus from "./componets/Aboutus";
 import GoToTop from "./GoToTop";
+import Events from "./Calendar";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Homepage />} />
           <Route exact path="/Aboutus" element={<Aboutus />} />
+          <Route exact path="/Events" element={<Events />} />
         </Routes>
       </HashRouter>
     </Container>

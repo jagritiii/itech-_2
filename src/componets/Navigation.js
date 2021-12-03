@@ -34,15 +34,10 @@ const Navigation = () => {
                         <Nav.Link href="#other" className="tag">Other</Nav.Link>
 
                         <Nav.Link href="#footer_area" className="tag">contact us</Nav.Link>
-                        <NavDropdown title="Events" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="#rishabh" className="tag">
-                                UPCOMING EVENTS
-                            </NavDropdown.Item>
 
-                            <NavDropdown.Item href="#action/3.2" className="tag">
-                                YEARLY-EVENTS
-                            </NavDropdown.Item>
-                        </NavDropdown>
+                        <Nav.Link as={Link} to="/Events" className="tag">Events</Nav.Link>
+
+
                     </Nav>
                 </Navbar.Collapse>
 
